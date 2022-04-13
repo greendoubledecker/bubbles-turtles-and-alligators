@@ -17,10 +17,10 @@ function keyPressed() {
       )
     );
   }
-  if (keyCode === DOWN_ARROW) {
+  if (keyCode === DOWN_ARROW || bubbles.length > 50) {
     bubbles.pop();
   }
-  if (keyCode === LEFT_ARROW) {
+  if (keyCode === LEFT_ARROW || turtles.length > 50) {
     turtles.pop();
   }
   if (keyCode === RIGHT_ARROW) {
@@ -39,7 +39,7 @@ function keyTyped() {
   if (key === "a") {
     alligators.push(new Alligator());
   }
-  if (key === "d") {
+  if (key === "d" || alligators.length > 50) {
     alligators.pop();
   }
   if (key === "w") {

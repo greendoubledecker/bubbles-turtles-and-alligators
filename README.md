@@ -6,3 +6,4 @@ The "a" key adds an alligator; the "d" key removes one.
 The "s" key restarts the simulaton.
 The number of points increases when an alligator pops a bubble, an alligator eats a turtle, or a turtle pops a bubble.
 When the number of points overshoots 3000 (if that ever happens), the number of points will be reset to 0. (The points are in the console.)
+If there are over 50 bubbles / turtles / alligators, the number of bubbles / turtles / alligators gets limited to 50. 
